@@ -1,0 +1,38 @@
+ion-content {
+  --background: #292a2d;
+
+  ion-card {
+    padding: 0.5em 1em;
+    width: calc(100% - 2em);
+    font-size: 1.2em;
+    background-color: transparent;
+    border: 0.01em solid #c1c1c1;
+
+    &:hover {
+      filter: brightness(1.5);
+    }
+
+    a {
+      color: #c1c1c1;
+      text-decoration: none;
+
+      &::selection {
+        background-color: #c1c1c1;
+        color: #292a2d;
+      }
+    }
+  }
+}
+
+ion-button {
+  --background: #4166d5;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  width: 100%;
+  font-size: 1.2em;
+
+  ion-icon {
+    margin-right: 0.5em;
+  }
+}

@@ -1,0 +1,15 @@
+<ion-content>
+  <div>
+    <ion-card [style.display]="isScanning || !scannedCode ? 'none' : 'block'">
+      <a href="{{ scannedCode }}" target="_blank" rel="noopener noreferrer">
+        {{ scannedCode }}
+      </a>
+    </ion-card>
+  </div>
+
+  <ion-button (click)="isScanning ? qrStop() : qrScan()">
+    <ion-icon icon="{{ isScanning ? 'scan' : 'qr-code-outline' }}"></ion-icon>
+    <span>{{ isScanning ? 'STOP' : 'SCAN' }}</span>
+  </ion-button>
+</ion-content>
+

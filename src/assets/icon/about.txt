@@ -1,0 +1,8 @@
+This favicon was generated using the following graphics from OpenMoji:
+
+- Graphics Source: https://openmoji.org/library/emoji-E1D8/
+- Graphics Title: qr code
+- Graphics Unicode: E1D8
+- Graphics Author: Alexander Müller
+- Graphics Category: extras-openmoji
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
