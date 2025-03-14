@@ -94,7 +94,7 @@ Ensure you have the necessary SDKs installed (e.g., Android Studio for Android, 
 
 To build the app for production and generate an optimized version for distribution:
 
-    `ionic build` or `ionic build --prod`
+  `ionic build` or `ionic build --prod`
 
 This command will create a production-ready build in the www directory.
 
