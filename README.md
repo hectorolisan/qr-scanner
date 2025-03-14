@@ -54,7 +54,7 @@ Before starting, ensure you have the following tools installed:
 
 2. Install dependencies:
 
-  Install the necessary Node.js dependencies with:
+   Install the necessary Node.js dependencies with:
 
    `npm install --force`
 
