@@ -54,7 +54,7 @@ Before starting, ensure you have the following tools installed:
 
 2. Install dependencies:
 
-   Install the necessary Node.js dependencies with:
+  Install the necessary Node.js dependencies with:
 
    `npm install --force`
 
@@ -94,7 +94,7 @@ Ensure you have the necessary SDKs installed (e.g., Android Studio for Android, 
 
 To build the app for production and generate an optimized version for distribution:
 
-  `ionic build` or `ionic build --prod`
+   `ionic build` or `ionic build --prod`
 
 This command will create a production-ready build in the www directory.
 
@@ -104,19 +104,19 @@ Once you have added the platforms, you can build the app using:
 
 - For Android:
 
-  ```sh
-  ionic cap sync android
-  ionic cap open android
-  ```
+   ```sh
+   ionic cap sync android
+   ionic cap open android
+   ```
 
 This opens Android Studio where you can create an APK or run the app on a connected device.
 
 - For iOS:
 
-  ```sh
-  ionic cap sync ios
-  ionic cap open ios
-  ```
+   ```sh
+   ionic cap sync ios
+   ionic cap open ios
+   ```
 
 This opens Xcode where you can run the app on an iOS simulator or device.
 
@@ -126,15 +126,15 @@ Here are some screenshots of the QR Scanner app in action:
 
 - **Home Screen**: A clean and intuitive interface for scanning QR codes.
 
-  <img width=700 src="images/home.png" alt="Home Screen"></img>
+  <img width=700 src="images/home.webp" alt="Home Screen"></img>
 
 - **Scanner in Action**: Shows the camera in a box where you can scan the QR
 
-  <img width=700 src="images/scan.png" alt="Scanner in Action"></img>
+  <img width=700 src="images/scan.webp" alt="Scanner in Action"></img>
 
 - **Scanned QR Code**: The app displaying the results (e.g., a URL).
 
-  <img width=700 src="images/result.png" alt="Scanned QR Code"></img>
+  <img width=700 src="images/result.webp" alt="Scanned QR Code"></img>
 
 
 ## Contributing
